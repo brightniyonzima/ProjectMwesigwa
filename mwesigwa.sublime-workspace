@@ -1,0 +1,1910 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"congestion_at_home"
+			],
+			[
+				"dem",
+				"dem_id"
+			],
+			[
+				"new",
+				"new_demographic"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"dis",
+				"districts"
+			],
+			[
+				"agr",
+				"age_groups"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"all",
+				"all_exams"
+			],
+			[
+				"for",
+				"for\tfor …"
+			],
+			[
+				"rqe",
+				"request"
+			],
+			[
+				"clas",
+				"classes"
+			],
+			[
+				"tot",
+				"total_students_females"
+			],
+			[
+				"to",
+				"total_students_females"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"studen",
+				"students_array"
+			],
+			[
+				"studet",
+				"student_first_names"
+			],
+			[
+				"s",
+				"student_last_names"
+			],
+			[
+				"student",
+				"students_array"
+			],
+			[
+				"stude",
+				"students"
+			],
+			[
+				"inven",
+				"inventory_item"
+			],
+			[
+				"inve",
+				"inventory_item"
+			],
+			[
+				"sta",
+				"staff"
+			],
+			[
+				"po",
+				"position_id"
+			],
+			[
+				"Human",
+				"HumanResourceController"
+			],
+			[
+				"class",
+				"class_one"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"tota",
+				"total_students_males"
+			],
+			[
+				"chart",
+				"chart_data"
+			],
+			[
+				"chat",
+				"chart_data"
+			],
+			[
+				"stu",
+				"student_ids_array"
+			],
+			[
+				"stud",
+				"student_id"
+			],
+			[
+				"cl",
+				"class_id"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"fe",
+				"fees_structures"
+			],
+			[
+				"Fe",
+				"Fees_structure"
+			],
+			[
+				"student_",
+				"student_payment"
+			],
+			[
+				"bank",
+				"bank"
+			],
+			[
+				"D",
+				"DB"
+			],
+			[
+				"amou",
+				"amount_paid"
+			],
+			[
+				"fisrt",
+				"firstName"
+			],
+			[
+				"ba",
+				"balance"
+			],
+			[
+				"Hu",
+				"HumanResourceController"
+			],
+			[
+				"staff",
+				"staffs"
+			],
+			[
+				"staf",
+				"staff_positions"
+			],
+			[
+				"STa",
+				"StaffPosition"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"rq",
+				"request"
+			],
+			[
+				"cre",
+				"create"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"amo",
+				"amount_paid"
+			],
+			[
+				"ao",
+				"amount_to_be_paid"
+			],
+			[
+				"amount",
+				"amount"
+			],
+			[
+				"amoun",
+				"amount"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"crea",
+				"created"
+			],
+			[
+				"con",
+				"confirmPwd"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"my",
+				"myTable"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"parent",
+				"parent"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"pho",
+				"photo_path"
+			],
+			[
+				"ph",
+				"photo_path"
+			],
+			[
+				"paren",
+				"parent"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"St",
+				"StudentNotes"
+			],
+			[
+				"cla",
+				"classes"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"get",
+				"get\tget"
+			],
+			[
+				"c",
+				"create"
+			],
+			[
+				"sc",
+				"school_classes"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pare",
+				"parent"
+			],
+			[
+				"PA",
+				"parent"
+			],
+			[
+				"reu",
+				"request"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"hei",
+				"max-height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"com",
+				"compact"
+			],
+			[
+				"stdun",
+				"student"
+			],
+			[
+				"cour",
+				"courseId"
+			],
+			[
+				"mi",
+				"middleName"
+			],
+			[
+				"par",
+				"parentNameArray"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"cou",
+				"course_id"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"re",
+				"ret\treturn"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"id",
+				"idFacility"
+			],
+			[
+				"loa",
+				"loanAccountNumber"
+			],
+			[
+				"contr",
+				"contractcode"
+			],
+			[
+				"cred",
+				"CreditAccountStatus"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"ignorec",
+				"ignoreCustomerArray"
+			],
+			[
+				"Credit",
+				"CreditApplicationStatus"
+			],
+			[
+				"ext",
+				"extractedloanaccount"
+			],
+			[
+				"acc",
+				"accountNumber"
+			],
+			[
+				"extr",
+				"extractedODaccount"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"loan",
+				"loanaccountnumber"
+			],
+			[
+				"newR",
+				"newReferenceNumber"
+			],
+			[
+				"clien",
+				"clientnumber"
+			],
+			[
+				"Cre",
+				"CreditApplicationStatus"
+			],
+			[
+				"php",
+				"phpinfo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 696,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 845,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Auth/LoginController.php",
+			"settings":
+			{
+				"buffer_size": 943,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 1569,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 4212,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/auth/register.blade.php",
+			"settings":
+			{
+				"buffer_size": 3743,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/home/demographics.blade.php",
+			"settings":
+			{
+				"buffer_size": 3791,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/home/pneumonia_factors.blade.php",
+			"settings":
+			{
+				"buffer_size": 6640,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "database/seeds/DatabaseSeeder.php",
+			"settings":
+			{
+				"buffer_size": 300,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/auth/login.blade.php",
+			"settings":
+			{
+				"buffer_size": 3219,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/app.php",
+			"settings":
+			{
+				"buffer_size": 8681,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "css",
+		"selected_items":
+		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"advan",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"Install Package"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/ProjectMwesigwa"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/ProjectMwesigwa/database/seeds/DistrictsTableSeeder.php",
+		"/C/wamp64/www/ProjectMwesigwa/app/District.php",
+		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2018_07_09_122128_create_districts_table.php",
+		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2018_07_08_122005_create_demographics_table.php",
+		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/C/wamp64/www/ProjectMwesigwa/resources/views/auth/login.blade.php",
+		"/C/wamp64/www/ProjectMwesigwa/config/app.php",
+		"/C/wamp64/www/Shuri/resources/views/examinations/create.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/examinations/exams_list.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/examinations/index.blade.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/ExaminationsController.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/StudentsController.php",
+		"/C/wamp64/www/Shuri/resources/views/dashboard/index.blade.php",
+		"/C/wamp64/www/Shuri/app/Http/helpers.php",
+		"/C/wamp64/www/Shuri/routes/web.php",
+		"/C/wamp64/www/Shuri/resources/views/students/index.blade.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_06_26_142622_create_examinations_table.php",
+		"/C/wamp64/www/Shuri/database/seeds/SchoolSubjectsTableSeeder.php",
+		"/C/wamp64/www/Shuri/database/seeds/DatabaseSeeder.php",
+		"/C/wamp64/www/Shuri/vendor/phpspec/prophecy/src/Prophecy/Prophecy/ProphecySubjectInterface.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/test_column_graph.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/test_graphs.blade.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/FinanceController.php",
+		"/C/wamp64/www/Shuri/resources/views/students/edit.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/create_inventory.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/index.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/hr/create.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/hr/form.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/create.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/students/show.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/students/form.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/student-items/create.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/layouts/app.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/fees/index.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/charts_and_graphs/index.blade.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_06_12_142717_create_inventory_items_table.php",
+		"/C/wamp64/www/Shuri/vendor/laravel/framework/src/Illuminate/Mail/resources/views/html/layout.blade.php",
+		"/C/wamp64/www/Shuri/app/ItemPayment.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/student-items/index.blade.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_06_10_124716_create_item_payments_table.php",
+		"/C/wamp64/www/Shuri/app/Fees_payment.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_05_23_161128_create_fees_payments_table.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/HumanResourceController.php",
+		"/C/wamp64/www/Shuri/resources/views/hr/index.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/hr/show.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/layouts/nav.blade.php",
+		"/C/wamp64/www/Shuri/app/Student.php",
+		"/C/wamp64/www/Shuri/resources/views/auth/login.blade.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/TimeTableController.php",
+		"/C/wamp64/www/Shuri/resources/views/timetable/create.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/timetable/create_timetable.blade.php",
+		"/C/wamp64/www/Shuri/database/seeds/StaffPositionsSeeder.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/charts_and_graphs/select_class_excel.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/create_fees_structure.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/finance/fees_structures.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/students/create.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/parents/index.blade.php",
+		"/C/wamp64/www/Shuri/composer.json",
+		"/C/wamp64/www/Shuri/app/Staff.php",
+		"/C/wamp64/www/Shuri/app/StaffPosition.php",
+		"/C/wamp64/www/Shuri/app/StudentParent.php",
+		"/C/wamp64/www/Shuri/database/seeds/PaymentBankTableSeeder.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_05_27_125705_create_staff_positions_table.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_05_27_104010_create_school_staff_table.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/Auth/LoginController.php",
+		"/C/wamp64/www/Shuri/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_03_27_094033_create_students_table.php",
+		"/C/wamp64/www/Shuri/database/seeds/UsersTableSeeder.php",
+		"/C/wamp64/www/Shuri/config/app.php",
+		"/C/wamp64/www/Shuri/app/Fees_structure.php",
+		"/C/wamp64/www/Shuri/resources/views/parents/form.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/parents/create.blade.php",
+		"/C/wamp64/www/Shuri/.env",
+		"/C/wamp64/www/Shuri/app/Payment_bank.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_05_23_164132_create_payment_bank_table.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_05_06_134557_create_student_fees_table.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/ParentsController.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_03_27_080207_create_parents_table.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/StudentNotesController.php",
+		"/C/wamp64/www/Shuri/app/Http/Controllers/UsersController.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_05_12_205550_create_fees_structure_table.php",
+		"/C/wamp64/www/Shuri/resources/views/student-notes/index.blade.php",
+		"/C/wamp64/www/Shuri/public/css/app.css",
+		"/C/wamp64/www/Shuri/database/migrations/2018_04_24_144100_create_school_subjects_table.php",
+		"/C/wamp64/www/Shuri/resources/views/parents/show.blade.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_05_01_115147_create_staff_table.php",
+		"/C/wamp64/www/Shuri/database/seeds/SchoolClassesTableSeeder.php",
+		"/C/wamp64/www/Shuri/app/StudentNotes.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_04_19_140729_create_period_times_table.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_04_26_204300_create_notes_uploads_table.php",
+		"/C/wamp64/www/Shuri/resources/views/student-notes/upload_notes.blade.php",
+		"/C/wamp64/www/Shuri/resources/views/users/index.blade.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_04_24_143636_create_classes_table.php",
+		"/C/wamp64/www/Shuri/resources/views/notes/index.blade.php",
+		"/C/wamp64/www/Shuri/database/migrations/2018_03_27_090212_create_courses_table.php",
+		"/C/wamp64/www/Shuri/resources/views/parents/edit.blade.php",
+		"/C/wamp64/www/Shuri/readme.md",
+		"/C/xampp/htdocs/Shuri/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/Shuri/resources/views/students/form.blade.php",
+		"/C/xampp/htdocs/Shuri/resources/views/students/edit.blade.php",
+		"/C/xampp/htdocs/Shuri/resources/views/dashboard/index.blade.php",
+		"/C/xampp/htdocs/Shuri/resources/views/parents/index.blade.php",
+		"/C/xampp/htdocs/Shuri/resources/views/students/create.blade.php",
+		"/C/xampp/htdocs/Shuri/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/Shuri/tests/Unit/UserTest.php",
+		"/C/xampp/htdocs/Shuri/tests/Feature/UserTest.php",
+		"/C/xampp/htdocs/Shuri/app/CourseUnit.php",
+		"/C/xampp/htdocs/Shuri/app/Course.php",
+		"/C/xampp/htdocs/Shuri/app/StudentParent.php",
+		"/C/xampp/htdocs/Shuri/routes/web.php",
+		"/C/xampp/htdocs/Shuri/resources/views/students/index.blade.php",
+		"/C/xampp/htdocs/Shuri/app/Http/Controllers/ParentsController.php",
+		"/C/xampp/htdocs/Shuri/resources/views/layouts/nav.blade.php",
+		"/C/xampp/htdocs/Shuri/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/Shuri/resources/assets/sass/_login.scss",
+		"/C/xampp/htdocs/Shuri/resources/assets/sass/app.scss",
+		"/C/xampp/htdocs/Shuri/app/Http/Controllers/StudentsController.php",
+		"/C/xampp/htdocs/Shuri/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/Shuri/app/Http/Controllers/UsersController.php",
+		"/C/xampp/htdocs/Shuri/app/Student.php",
+		"/C/xampp/htdocs/Shuri/config/app.php",
+		"/C/xampp/htdocs/Shuri/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/Shuri/app/Http/Controllers/CoursesController.php",
+		"/C/xampp/htdocs/Shuri/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/Shuri/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/xampp/htdocs/Shuri/database/migrations/2018_03_29_082536_add_password_to_students_colummn.php"
+	],
+	"find":
+	{
+		"height": 58.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Immunisation",
+			"\"Immunized\"",
+			"Immunized\"",
+			"breast_feeding",
+			"HIV_staus",
+			"patient_follow_up",
+			"password",
+			"name",
+			"$student",
+			"students",
+			"term",
+			"Term",
+			"term",
+			"Term",
+			"term",
+			"exam_file",
+			"student-photos",
+			"photo_path",
+			"photo",
+			"classes",
+			"cv",
+			"CV",
+			"cv",
+			"student",
+			"exce",
+			"result_one",
+			"class_one",
+			"student",
+			"inven",
+			"studen",
+			"student_payment",
+			"student_payments",
+			"$payment",
+			"item",
+			"Item",
+			"item",
+			"$s->",
+			"$student",
+			"logout-form",
+			"log",
+			"orga",
+			"class",
+			"chart_data",
+			"83",
+			"chart",
+			"classes",
+			"inventory_item",
+			"defaulters",
+			"fees-pay",
+			"fees-structure",
+			"store",
+			"$student[",
+			"file",
+			"->path",
+			"document",
+			"parent",
+			"photo_path",
+			"parents",
+			"gender",
+			"student_class",
+			"$student",
+			"photo",
+			"residence",
+			"Residence",
+			"residence",
+			"Residence",
+			"residence",
+			"address",
+			"Address",
+			"address",
+			"photo",
+			"student",
+			"banks",
+			"amount",
+			"$student",
+			"students",
+			"term",
+			"episodeId",
+			"gender",
+			"createOrUpdate",
+			"lastName",
+			"amount",
+			"Amount",
+			"amount",
+			"Amount",
+			"amount",
+			"Amount",
+			"amount",
+			"'student'",
+			"student",
+			"Student",
+			"student",
+			"Student",
+			"student",
+			"'parent'",
+			"parent",
+			"$student",
+			"day",
+			"application",
+			"</span>",
+			"<span class=\"select\">",
+			"date",
+			" =>",
+			",",
+			"$student",
+			"' => ",
+			"    '",
+			"$patient_document",
+			"Student",
+			"student",
+			"Student",
+			"student",
+			"Student",
+			"student",
+			"name",
+			"arish",
+			"$occupations",
+			"\n                <hr>",
+			"photo",
+			"address",
+			"firstName",
+			"subject",
+			"period",
+			"timetable-class",
+			"timetable",
+			"password",
+			"$Student",
+			"'address'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Cameroon",
+			"$admin_classes_path"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								628,
+								628
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/Auth/LoginController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								756,
+								756
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 966.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/Controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1444,
+								1444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1933.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/layouts/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4095,
+								4095
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3949.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/auth/register.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/home/demographics.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2851,
+								2851
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2604.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/home/pneumonia_factors.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1258,
+								1258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "database/seeds/DatabaseSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "resources/views/auth/login.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8668,
+								8668
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8526.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 56.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 40.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mwesigwa.sublime-project",
+	"replace":
+	{
+		"height": 106.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"datab",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"distr",
+				"database\\seeds\\DistrictsTableSeeder.php"
+			],
+			[
+				"create_",
+				"database\\migrations\\2018_07_09_122128_create_districts_table.php"
+			],
+			[
+				"logi",
+				"resources\\views\\auth\\login.blade.php"
+			],
+			[
+				"create_de",
+				"database\\migrations\\2018_07_08_122005_create_demographics_table.php"
+			],
+			[
+				"conf/ap",
+				"config\\app.php"
+			],
+			[
+				"creat",
+				"database\\migrations\\2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"reg",
+				"resources\\views\\auth\\register.blade.php"
+			],
+			[
+				"app",
+				"resources\\views\\layouts\\app.blade.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"config/a",
+				"config\\app.php"
+			],
+			[
+				"home",
+				"app\\Http\\Controllers\\HomeController.php"
+			],
+			[
+				"",
+				"routes\\web.php"
+			],
+			[
+				"we",
+				"routes\\web.php"
+			],
+			[
+				"students/i",
+				"resources\\views\\students\\index.blade.php"
+			],
+			[
+				"create_exa",
+				"database\\migrations\\2018_06_26_142622_create_examinations_table.php"
+			],
+			[
+				"data",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"scho",
+				"database\\seeds\\SchoolSubjectsTableSeeder.php"
+			],
+			[
+				"subject",
+				"vendor\\phpspec\\prophecy\\src\\Prophecy\\Prophecy\\ProphecySubjectInterface.php"
+			],
+			[
+				"hr/cr",
+				"resources\\views\\hr\\create.blade.php"
+			],
+			[
+				"hr/for",
+				"resources\\views\\hr\\form.blade.php"
+			],
+			[
+				"hr/c",
+				"resources\\views\\hr\\create.blade.php"
+			],
+			[
+				"finance/cre",
+				"resources\\views\\finance\\create.blade.php"
+			],
+			[
+				"examinat",
+				"app\\Http\\Controllers\\ExaminationsController.php"
+			],
+			[
+				"examina",
+				"app\\Http\\Controllers\\ExaminationsController.php"
+			],
+			[
+				"dashbo",
+				"resources\\views\\dashboard\\index.blade.php"
+			],
+			[
+				"test_co",
+				"resources\\views\\finance\\test_column_graph.blade.php"
+			],
+			[
+				"test_col",
+				"resources\\views\\finance\\test_column_graph.blade.php"
+			],
+			[
+				"fina",
+				"app\\Http\\Controllers\\FinanceController.php"
+			],
+			[
+				"students/ed",
+				"resources\\views\\students\\edit.blade.php"
+			],
+			[
+				"studentco",
+				"app\\Http\\Controllers\\StudentsController.php"
+			],
+			[
+				"regi",
+				"app\\Http\\Controllers\\Auth\\RegisterController.php"
+			],
+			[
+				"fin",
+				"app\\Http\\Controllers\\FinanceController.php"
+			],
+			[
+				"test",
+				"resources\\views\\finance\\test_graphs.blade.php"
+			],
+			[
+				"create_in",
+				"database\\migrations\\2018_06_12_142717_create_inventory_items_table.php"
+			],
+			[
+				"create_inve",
+				"resources\\views\\finance\\create_inventory.blade.php"
+			],
+			[
+				"student-items",
+				"resources\\views\\finance\\student-items\\create.blade.php"
+			],
+			[
+				"students/edi",
+				"resources\\views\\students\\edit.blade.php"
+			],
+			[
+				"students/sh",
+				"resources\\views\\students\\show.blade.php"
+			],
+			[
+				"layoua",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Mail\\resources\\views\\html\\layout.blade.php"
+			],
+			[
+				"fees/i",
+				"resources\\views\\finance\\fees\\index.blade.php"
+			],
+			[
+				"student/fo",
+				"resources\\views\\students\\form.blade.php"
+			],
+			[
+				"create_it",
+				"database\\migrations\\2018_06_10_124716_create_item_payments_table.php"
+			],
+			[
+				"fe",
+				"app\\Fees_payment.php"
+			],
+			[
+				"item",
+				"app\\ItemPayment.php"
+			],
+			[
+				"fees/in",
+				"resources\\views\\finance\\fees\\index.blade.php"
+			],
+			[
+				"create_ite",
+				"database\\migrations\\2018_06_10_124716_create_item_payments_table.php"
+			],
+			[
+				"create_fe",
+				"database\\migrations\\2018_05_23_161128_create_fees_payments_table.php"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"finance/in",
+				"resources\\views\\finance\\index.blade.php"
+			],
+			[
+				"students/in",
+				"resources\\views\\students\\index.blade.php"
+			],
+			[
+				"stude",
+				"app\\Http\\Controllers\\StudentsController.php"
+			],
+			[
+				"na",
+				"resources\\views\\layouts\\nav.blade.php"
+			],
+			[
+				"hr/in",
+				"resources\\views\\hr\\index.blade.php"
+			],
+			[
+				"hu",
+				"app\\Http\\Controllers\\HumanResourceController.php"
+			],
+			[
+				"student/in",
+				"resources\\views\\students\\index.blade.php"
+			],
+			[
+				"stu",
+				"app\\Student.php"
+			],
+			[
+				"test_ch",
+				"resources\\views\\finance\\test_column_graph.blade.php"
+			],
+			[
+				"create_tim",
+				"resources\\views\\timetable\\create_timetable.blade.php"
+			],
+			[
+				"timet",
+				"app\\Http\\Controllers\\TimeTableController.php"
+			],
+			[
+				"timetable/cr",
+				"resources\\views\\timetable\\create.blade.php"
+			],
+			[
+				"hr/i",
+				"resources\\views\\hr\\index.blade.php"
+			],
+			[
+				"inde",
+				"resources\\views\\dashboard\\index.blade.php"
+			],
+			[
+				"human",
+				"app\\Http\\Controllers\\HumanResourceController.php"
+			],
+			[
+				"d",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"sta",
+				"database\\seeds\\StaffPositionsSeeder.php"
+			],
+			[
+				"create_fee",
+				"resources\\views\\finance\\create_fees_structure.blade.php"
+			],
+			[
+				"cretae_in",
+				"resources\\views\\finance\\create_inventory.blade.php"
+			],
+			[
+				"graphs",
+				"resources\\views\\finance\\charts_and_graphs\\index.blade.php"
+			],
+			[
+				"hel",
+				"app\\Http\\helpers.php"
+			],
+			[
+				"finance/fees",
+				"resources\\views\\finance\\fees\\index.blade.php"
+			],
+			[
+				"studen",
+				"app\\Student.php"
+			],
+			[
+				"student/cr",
+				"resources\\views\\students\\create.blade.php"
+			],
+			[
+				"parents/in",
+				"resources\\views\\parents\\index.blade.php"
+			],
+			[
+				"student/c",
+				"resources\\views\\students\\create.blade.php"
+			],
+			[
+				"help",
+				"app\\Http\\helpers.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"students",
+				"app\\Http\\Controllers\\StudentsController.php"
+			],
+			[
+				"charts_a",
+				"resources\\views\\finance\\charts_and_graphs\\index.blade.php"
+			],
+			[
+				"charts_",
+				"resources\\views\\finance\\charts_and_graphs\\index.blade.php"
+			],
+			[
+				"studentpa",
+				"app\\StudentParent.php"
+			],
+			[
+				"student",
+				"app\\Student.php"
+			],
+			[
+				"staffpo",
+				"app\\StaffPosition.php"
+			],
+			[
+				"parent",
+				"app\\StudentParent.php"
+			],
+			[
+				"databas",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"staf",
+				"database\\seeds\\StaffPositionsSeeder.php"
+			],
+			[
+				"paymen",
+				"database\\seeds\\PaymentBankTableSeeder.php"
+			],
+			[
+				"create_st",
+				"database\\migrations\\2018_05_27_125705_create_staff_positions_table.php"
+			],
+			[
+				"students/fo",
+				"resources\\views\\students\\form.blade.php"
+			],
+			[
+				"create_staf",
+				"database\\migrations\\2018_05_27_104010_create_school_staff_table.php"
+			],
+			[
+				"login",
+				"app\\Http\\Controllers\\Auth\\LoginController.php"
+			],
+			[
+				"regist",
+				"app\\Http\\Controllers\\Auth\\RegisterController.php"
+			],
+			[
+				"regis",
+				"app\\Http\\Controllers\\Auth\\RegisterController.php"
+			],
+			[
+				"studentcon",
+				"app\\Http\\Controllers\\StudentsController.php"
+			],
+			[
+				"create_us",
+				"database\\migrations\\2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"create_stu",
+				"database\\migrations\\2018_03_27_094033_create_students_table.php"
+			],
+			[
+				"students/c",
+				"resources\\views\\students\\create.blade.php"
+			],
+			[
+				"index",
+				"resources\\views\\dashboard\\index.blade.php"
+			],
+			[
+				"humna",
+				"app\\Http\\Controllers\\HumanResourceController.php"
+			],
+			[
+				"use",
+				"database\\seeds\\UsersTableSeeder.php"
+			],
+			[
+				"student/fr",
+				"resources\\views\\students\\form.blade.php"
+			],
+			[
+				"student/edi",
+				"resources\\views\\students\\edit.blade.php"
+			],
+			[
+				"app.",
+				"config\\app.php"
+			],
+			[
+				"fees",
+				"app\\Fees_structure.php"
+			],
+			[
+				"fees_pa",
+				"database\\migrations\\2018_05_23_161128_create_fees_payments_table.php"
+			],
+			[
+				"parents/fo",
+				"resources\\views\\parents\\form.blade.php"
+			],
+			[
+				"parents/fom",
+				"resources\\views\\parents\\form.blade.php"
+			],
+			[
+				"parents/cr",
+				"resources\\views\\parents\\create.blade.php"
+			],
+			[
+				"students/cr",
+				"resources\\views\\students\\create.blade.php"
+			],
+			[
+				"dat",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"payment_ban",
+				"database\\migrations\\2018_05_23_164132_create_payment_bank_table.php"
+			],
+			[
+				"stud",
+				"database\\migrations\\2018_05_06_134557_create_student_fees_table.php"
+			],
+			[
+				"parentcon",
+				"app\\Http\\Controllers\\ParentsController.php"
+			],
+			[
+				"create_p",
+				"database\\migrations\\2018_03_27_080207_create_parents_table.php"
+			],
+			[
+				"create_stude",
+				"database\\migrations\\2018_03_27_094033_create_students_table.php"
+			],
+			[
+				"financ",
+				"resources\\views\\finance\\create.blade.php"
+			],
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"students/",
+				"resources\\views\\students\\show.blade.php"
+			],
+			[
+				".nev",
+				".env"
+			],
+			[
+				"create_fees",
+				"database\\migrations\\2018_05_12_205550_create_fees_structure_table.php"
+			],
+			[
+				"app.bla",
+				"resources\\views\\layouts\\app.blade.php"
+			],
+			[
+				"app.cs",
+				"public\\css\\app.css"
+			],
+			[
+				"app.bl",
+				"resources\\views\\layouts\\app.blade.php"
+			],
+			[
+				"app.b",
+				"resources\\views\\layouts\\app.blade.php"
+			],
+			[
+				"stduent-no",
+				"resources\\views\\student-notes\\index.blade.php"
+			],
+			[
+				"create_stud",
+				"database\\migrations\\2018_03_27_094033_create_students_table.php"
+			],
+			[
+				"student/f",
+				"resources\\views\\students\\form.blade.php"
+			],
+			[
+				"students/sho",
+				"resources\\views\\students\\show.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\larafaker\\SamaritanPurse.sublime-project"
+			],
+			[
+				"ec",
+				"C:\\xampp\\htdocs\\Ecobankcav2\\Ecobankcav2.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
