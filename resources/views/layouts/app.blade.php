@@ -29,9 +29,9 @@
                 </a> -->
                 @guest
                 @else
-                    <a href="#" style="margin-left: 20px;font-weight: 600;">Home</a>
+                    <a href="/home" style="margin-left: 20px;font-weight: 600;">Home</a>
                     <a href="/demographics" style="margin-left: 20px; font-weight: 600;">New Record</a>
-                    <a href="#" style="margin-left: 20px; font-weight: 600;">View Predictions</a>
+                    <a href="#" style="margin-left: 20px; font-weight: 600;">Predict</a>
                     <a href="#" style="margin-left: 20px; font-weight: 600;">View Prediction Charts</a>
                 @endguest
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

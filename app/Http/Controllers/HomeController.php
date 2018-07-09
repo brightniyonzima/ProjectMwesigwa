@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Demographic;
+use DB;
 
 class HomeController extends Controller
 {
@@ -30,7 +31,8 @@ class HomeController extends Controller
     public function step_one_registration()
     {
         $age_groups = [''=>'-- Select Age Group --','1'=>'0-20 months','2'=>'21-40 months','3'=>'41-60 months'];
-        $districts = [''=>'-- Select District --','1'=>'Mbarara'];
+        $districts = DB::table('districts')->orderBy('name','asc')->pluck('name','id')->toArray();
+        $districts = array_prepend($districts, '-- select district --', '');
         return view('home.demographics',compact('age_groups','districts'));
     }
 

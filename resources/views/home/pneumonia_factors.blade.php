@@ -30,8 +30,8 @@
                                     <option value="">--select--</option>
                                     <option value="5"> Very Malnourished</option>
                                     <option value="3"> Malnourished</option>
-                                    <option value="0"> Nourished</option>
-                                    <option value="3">Not Available</option>
+                                    <option value="2"> Nourished</option>
+                                    <option value="0">Not Available</option>
                                 </select>
                             </div>
                         </div>
