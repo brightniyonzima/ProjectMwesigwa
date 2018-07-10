@@ -24,5 +24,6 @@ Route::get('demographics','HomeController@step_one_registration');
 Route::post('store-demographics','HomeController@store_demographics');
 Route::get('pneumonia-factors','HomeController@step_two_registration');
 Route::post('store-factors','HomeController@store_pneumonia_factors');
+Route::post('process_template','HomeController@process_template');
 
 

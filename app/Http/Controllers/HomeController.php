@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Demographic;
 use DB;
+use Excel;
 
 class HomeController extends Controller
 {
@@ -58,5 +59,25 @@ class HomeController extends Controller
     public function store_pneumonia_factors(Request $request)
     {
         # code...
+    }
+
+    public function process_template(Request $request)
+    {
+        if ($request->file('factors_template')->isValid()) {
+            $file = $request->file('factors_template');
+            $originalfile = $file->getClientOriginalName();
+            $ext = $file->getClientOriginalExtension();
+            $excfile = new Excel;
+            $RealPath = $file->getRealPath();
+            $pneumonia_factors = Excel::load($RealPath, function($reader) {
+            })->get();
+            dd($ext);
+            foreach ($pneumonia_factors as $factor) {
+                $factors_array = $factor->toArray();
+                dd($factor);
+                $new_factor_record = new PneumoniaFactor;
+                $new_factor_record->hiv_status = $factor[0];
+            }
+        }
     }
 }

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ne",
+				"new_factor_record"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
 				"co",
 				"congestion_at_home"
 			],
@@ -46,10 +54,6 @@
 			[
 				"all",
 				"all_exams"
-			],
-			[
-				"for",
-				"for\tfor …"
 			],
 			[
 				"rqe",
@@ -510,10 +514,6 @@
 			[
 				"Cre",
 				"CreditApplicationStatus"
-			],
-			[
-				"php",
-				"phpinfo"
 			]
 		]
 	},
@@ -532,7 +532,7 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 845,
+				"buffer_size": 912,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -550,7 +550,16 @@
 			"file": "app/Http/Controllers/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 1569,
+				"buffer_size": 2478,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 1923,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -559,7 +568,7 @@
 			"file": "resources/views/layouts/app.blade.php",
 			"settings":
 			{
-				"buffer_size": 4212,
+				"buffer_size": 4207,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -605,15 +614,6 @@
 			"settings":
 			{
 				"buffer_size": 3219,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/app.php",
-			"settings":
-			{
-				"buffer_size": 8681,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -677,6 +677,7 @@
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/ProjectMwesigwa/config/app.php",
 		"/C/wamp64/www/ProjectMwesigwa/database/seeds/DistrictsTableSeeder.php",
 		"/C/wamp64/www/ProjectMwesigwa/app/District.php",
 		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2018_07_09_122128_create_districts_table.php",
@@ -684,7 +685,6 @@
 		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2014_10_12_100000_create_password_resets_table.php",
 		"/C/wamp64/www/ProjectMwesigwa/resources/views/auth/login.blade.php",
-		"/C/wamp64/www/ProjectMwesigwa/config/app.php",
 		"/C/wamp64/www/Shuri/resources/views/examinations/create.blade.php",
 		"/C/wamp64/www/Shuri/resources/views/examinations/exams_list.blade.php",
 		"/C/wamp64/www/Shuri/resources/views/examinations/index.blade.php",
@@ -823,6 +823,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"excelfile",
+			"exam_file",
 			"Immunisation",
 			"\"Immunized\"",
 			"Immunized\"",
@@ -948,9 +950,7 @@
 			"period",
 			"timetable-class",
 			"timetable",
-			"password",
-			"$Student",
-			"'address'"
+			"password"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -970,7 +970,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1007,15 +1007,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 845,
+						"buffer_size": 912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								628,
-								628
+								561,
+								561
 							]
 						],
 						"settings":
@@ -1023,10 +1023,10 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 672.0,
+						"translation.y": 714.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1065,15 +1065,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1569,
+						"buffer_size": 2478,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1444,
-								1444
+								2190,
+								2190
 							]
 						],
 						"settings":
@@ -1083,27 +1083,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1933.0,
+						"translation.y": 2646.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "resources/views/layouts/app.blade.php",
+					"file": "resources/views/home.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4212,
+						"buffer_size": 1923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4095,
-								4095
+								446,
+								446
 							]
 						],
 						"settings":
@@ -1113,14 +1113,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3949.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/layouts/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1860,
+								1860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "resources/views/auth/register.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1146,11 +1176,11 @@
 						"translation.y": 84.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "resources/views/home/demographics.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1177,11 +1207,11 @@
 						"translation.y": 2604.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "resources/views/home/pneumonia_factors.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1193,8 +1223,8 @@
 						"selection":
 						[
 							[
-								1258,
-								1258
+								1527,
+								1527
 							]
 						],
 						"settings":
@@ -1204,14 +1234,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 672.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "database/seeds/DatabaseSeeder.php",
 					"semi_transient": false,
 					"settings":
@@ -1229,17 +1259,19 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "resources/views/auth/login.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1265,37 +1297,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "config/app.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8681,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8668,
-								8668
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 8526.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1354,6 +1356,22 @@
 		"selected_items":
 		[
 			[
+				"config/a",
+				"config\\app.php"
+			],
+			[
+				"config/ap",
+				"config\\app.php"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"home.",
+				"resources\\views\\home.blade.php"
+			],
+			[
 				"datab",
 				"database\\seeds\\DatabaseSeeder.php"
 			],
@@ -1392,10 +1410,6 @@
 			[
 				".env",
 				".env"
-			],
-			[
-				"config/a",
-				"config\\app.php"
 			],
 			[
 				"home",
@@ -1544,10 +1558,6 @@
 			[
 				"create_fe",
 				"database\\migrations\\2018_05_23_161128_create_fees_payments_table.php"
-			],
-			[
-				"web",
-				"routes\\web.php"
 			],
 			[
 				"finance/in",
@@ -1856,14 +1866,6 @@
 			[
 				"create_stud",
 				"database\\migrations\\2018_03_27_094033_create_students_table.php"
-			],
-			[
-				"student/f",
-				"resources\\views\\students\\form.blade.php"
-			],
-			[
-				"students/sho",
-				"resources\\views\\students\\show.blade.php"
 			]
 		],
 		"width": 0.0
