@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"ag",
+				"age_group"
+			],
+			[
+				"if",
+				"ifelse\tif … else …"
+			],
+			[
+				"new",
+				"new_factor_record"
+			],
+			[
+				"fact",
+				"factor"
+			],
+			[
+				"dist",
+				"district"
+			],
+			[
+				"pn",
+				"pneumonia_factors_sheet"
+			],
+			[
 				"ne",
 				"new_factor_record"
 			],
@@ -18,10 +42,6 @@
 			[
 				"dem",
 				"dem_id"
-			],
-			[
-				"new",
-				"new_demographic"
 			],
 			[
 				"Re",
@@ -494,26 +514,6 @@
 			[
 				"json",
 				"json_encode"
-			],
-			[
-				"jso",
-				"json_encode"
-			],
-			[
-				"loan",
-				"loanaccountnumber"
-			],
-			[
-				"newR",
-				"newReferenceNumber"
-			],
-			[
-				"clien",
-				"clientnumber"
-			],
-			[
-				"Cre",
-				"CreditApplicationStatus"
 			]
 		]
 	},
@@ -550,7 +550,7 @@
 			"file": "app/Http/Controllers/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 2478,
+				"buffer_size": 3852,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -601,11 +601,10 @@
 			}
 		},
 		{
-			"file": "database/seeds/DatabaseSeeder.php",
+			"file": "database/migrations/2018_07_10_082333_create_pneumonia_factors_table.php",
 			"settings":
 			{
-				"buffer_size": 300,
-				"encoding": "UTF-8",
+				"buffer_size": 1363,
 				"line_ending": "Unix"
 			}
 		},
@@ -677,8 +676,11 @@
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/ProjectMwesigwa/database/seeds/DatabaseSeeder.php",
 		"/C/wamp64/www/ProjectMwesigwa/config/app.php",
+		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2018_07_10_082333_create_pneumonia_factors_table.php",
 		"/C/wamp64/www/ProjectMwesigwa/database/seeds/DistrictsTableSeeder.php",
+		"/C/wamp64/www/ProjectMwesigwa/composer.json",
 		"/C/wamp64/www/ProjectMwesigwa/app/District.php",
 		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2018_07_09_122128_create_districts_table.php",
 		"/C/wamp64/www/ProjectMwesigwa/database/migrations/2018_07_08_122005_create_demographics_table.php",
@@ -801,10 +803,7 @@
 		"/C/xampp/htdocs/Shuri/app/Student.php",
 		"/C/xampp/htdocs/Shuri/config/app.php",
 		"/C/xampp/htdocs/Shuri/resources/views/auth/register.blade.php",
-		"/C/xampp/htdocs/Shuri/app/Http/Controllers/CoursesController.php",
-		"/C/xampp/htdocs/Shuri/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/C/xampp/htdocs/Shuri/app/Http/Controllers/Auth/RegisterController.php",
-		"/C/xampp/htdocs/Shuri/database/migrations/2018_03_29_082536_add_password_to_students_colummn.php"
+		"/C/xampp/htdocs/Shuri/app/Http/Controllers/CoursesController.php"
 	],
 	"find":
 	{
@@ -970,7 +969,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1023,7 +1022,7 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 714.0,
+						"translation.y": 504.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1065,15 +1064,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2478,
+						"buffer_size": 3852,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2190,
-								2190
+								3031,
+								3031
 							]
 						],
 						"settings":
@@ -1083,10 +1082,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2646.0,
+						"translation.y": 2813.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1116,7 +1115,7 @@
 						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1146,7 +1145,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1237,24 +1236,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "database/seeds/DatabaseSeeder.php",
+					"file": "database/migrations/2018_07_10_082333_create_pneumonia_factors_table.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 300,
+						"buffer_size": 1363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								1128,
+								1105
 							]
 						],
 						"settings":
@@ -1264,10 +1263,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 126.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1297,7 +1296,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1356,8 +1355,28 @@
 		"selected_items":
 		[
 			[
+				"ho",
+				"app\\Http\\Controllers\\HomeController.php"
+			],
+			[
+				"create_pe",
+				"database\\migrations\\2018_07_10_082333_create_pneumonia_factors_table.php"
+			],
+			[
+				"dist",
+				"database\\seeds\\DistrictsTableSeeder.php"
+			],
+			[
+				"create_pn",
+				"database\\migrations\\2018_07_10_082333_create_pneumonia_factors_table.php"
+			],
+			[
 				"config/a",
 				"config\\app.php"
+			],
+			[
+				"com",
+				"composer.json"
 			],
 			[
 				"config/ap",
@@ -1846,26 +1865,6 @@
 			[
 				"app.bla",
 				"resources\\views\\layouts\\app.blade.php"
-			],
-			[
-				"app.cs",
-				"public\\css\\app.css"
-			],
-			[
-				"app.bl",
-				"resources\\views\\layouts\\app.blade.php"
-			],
-			[
-				"app.b",
-				"resources\\views\\layouts\\app.blade.php"
-			],
-			[
-				"stduent-no",
-				"resources\\views\\student-notes\\index.blade.php"
-			],
-			[
-				"create_stud",
-				"database\\migrations\\2018_03_27_094033_create_students_table.php"
 			]
 		],
 		"width": 0.0

@@ -67,16 +67,40 @@ class HomeController extends Controller
             $file = $request->file('factors_template');
             $originalfile = $file->getClientOriginalName();
             $ext = $file->getClientOriginalExtension();
-            $excfile = new Excel;
             $RealPath = $file->getRealPath();
-            $pneumonia_factors = Excel::load($RealPath, function($reader) {
-            })->get();
-            dd($ext);
-            foreach ($pneumonia_factors as $factor) {
+            /*$pneumonia_factors = Excel::load($RealPath, function($reader) {
+            })->get(); this works too but i prefer the selectSheets()*/
+            $pneumonia_factors_sheet = Excel::selectSheets('Factors')->load($RealPath,function($reader) {
+              })->get();
+            foreach ($pneumonia_factors_sheet as $factor) {
                 $factors_array = $factor->toArray();
-                dd($factor);
+                dd($factors_array);
                 $new_factor_record = new PneumoniaFactor;
-                $new_factor_record->hiv_status = $factor[0];
+                $new_factor_record->district_id = $factor[0];//
+                $age_group =  $factor[2];
+                /* 1 -> 0-20 months,2 -> 21-40 months,3 -> 22-60 months*/
+                if ($age_group > 1 && $age_group <= 20) {
+                    $age_group = 1;
+                } 
+                elseif ($age_group > 11 && $age_group <= 40) {
+                    $age_group = 2;
+                } 
+                elseif ($age_group > 41 && $age_group <= 60){
+                    $age_group = 3;
+                }
+                
+                /*$new_factor_record->age_group = $factor[];
+                $new_factor_record->month_of_admission = $factor[];
+                $new_factor_record->gender = $factor[];
+                $new_factor_record->level_of_education = $factor[];
+                $new_factor_record->breast_feeding = $factor[];
+                $new_factor_record->weight_for_height = $factor[];
+                $new_factor_record->nutrition_status = $factor[];
+                $new_factor_record->HIV_status = $factor[];
+                $new_factor_record->congestion = $factor[];
+                $new_factor_record->immusation_status = $factor[];
+                $new_factor_record->family_cigaratte_smoker = $factor[];
+                $new_factor_record->save();*/
             }
         }
     }

@@ -31,7 +31,8 @@ class DistrictsTableSeeder extends Seeder
             ['id' => '18', 'name' => 'Kagadi', 'sub_region'=> 'west_1', 'region' => 'west'],
             ['id' => '19', 'name' => 'kamwengye', 'sub_region'=> 'west_1', 'region' => 'west'],
             ['id' => '20', 'name' => 'Kabarole', 'sub_region'=> 'west_1', 'region' => 'west'],
-            ['id' => '21', 'name' => 'Kyenjojo', 'sub_region'=> 'west_1', 'region' => 'west']
+            ['id' => '21', 'name' => 'Kyenjojo', 'sub_region'=> 'west_1', 'region' => 'west'],
+            ['id' => '22', 'name' => 'Ibanda', 'sub_region'=> 'west_2', 'region' => 'west'],
         ];
 
         foreach ($districts as $district):
