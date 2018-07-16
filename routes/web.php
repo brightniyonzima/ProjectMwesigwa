@@ -26,4 +26,5 @@ Route::get('pneumonia-factors','HomeController@step_two_registration');
 Route::post('store-factors','HomeController@store_pneumonia_factors');
 Route::post('process_template','HomeController@process_template');
 
-
+Route::resource('predictions','PredictionController');
+Route::get('sample_graph','PredictionController@general_graph');
