@@ -19,7 +19,7 @@ class PredictionController extends Controller
      */
     public function index()
     {
-        $demographics = ['1'=>'General Prevelance Prediction','2'=>'Seasons','3'=>'Age Group','4'=>'Regions'];
+        $demographics = ['1'=>'General Prevelance Prediction','2'=>'Prediction based on age','3'=>'Prediction based on years'];
         return view('predictions.index',compact('demographics'));
     }
 
@@ -102,8 +102,8 @@ class PredictionController extends Controller
         }*/
         $seasons_array = [];
         $predictions_array = [];
-        $seasons_array = ['jan-april','may-july','aug-oct','nov-dec'];
-        $predictions_array = [30,50,70,20];
+        $seasons_array = ['jan-march','april-june','july-sept','oct-dec'];
+        $predictions_array = [30,50,70,60];
         return view('predictions.general_charts',compact('seasons_array','predictions_array'));
     }
 }

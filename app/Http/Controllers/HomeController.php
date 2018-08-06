@@ -32,6 +32,12 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function show_records()
+    {
+        $pneumonia_factors = PneumoniaFactor::all();
+        return view('home.show',compact('pneumonia_factors'));
+    }
+
     public function step_one_registration()
     {
         $age_groups = [''=>'-- Select Age Group --','1'=>'0-20 months','2'=>'21-40 months','3'=>'41-60 months'];
@@ -95,114 +101,31 @@ class HomeController extends Controller
             $RealPath = $file->getRealPath();
             /*$pneumonia_factors = Excel::load($RealPath, function($reader) {
             })->get(); this works too but i prefer the selectSheets()*/
-            $pneumonia_factors_sheet = Excel::selectSheets('Factors')->load($RealPath,function($reader) {
+            $pneumonia_factors_sheet = Excel::selectSheets('Sheet1')->load($RealPath,function($reader) {
             })->get();
             foreach ($pneumonia_factors_sheet as $factor) {
                 $factors_array = $factor->toArray();
                 $factors_values = array_values($factors_array);
 
                 $new_factor_record = new PneumoniaFactor;
-                $district = District::where(['name' => ucwords($factors_values[0])])->first();
-                $district_id = is_object($district) ? $district->id : null;
-                $new_factor_record->district_id = $district_id;
-                $age_group =  $factors_values[2];
-                /* 1 -> 0-20 months,2 -> 21-40 months,3 -> 22-60 months*/
-                if ($age_group > 1 && $age_group <= 20) {
-                    $age_group = 1;
-                } 
-                elseif ($age_group > 11 && $age_group <= 40) {
-                    $age_group = 2;
-                } 
-                elseif ($age_group > 41 && $age_group <= 60){
-                    $age_group = 3;
-                }
-                $new_factor_record->age_group = $age_group;
+                $new_factor_record->district_id = $factors_values[0];
                 $new_factor_record->month_of_admission = $factors_values[1];
-                $gender = null;
-                if ($factors_values[3] == 'Male') {
-                    $gender = 0;
-                } 
-                elseif ($factors_values[3] == 'Female') {
-                    $gender = 1;
-                } 
-                $new_factor_record->gender = $gender;
-                $education = 0;
-                if ($factors_values[4] == 'O Level') {
-                    $education = 2;
-                } 
-                elseif ($factors_values[4] == 'A Level') {
-                    $education = 1;
-                }
-                $new_factor_record->level_of_education = $education;
-                $breast_feeding = 0;
-                if ($factors_values[5] == 'No') {
-                    $breast_feeding = 5;
-                } 
-                elseif ($factors_values[5] == 'Yes') {
-                    $breast_feeding = 2;
-                }
-                $new_factor_record->breast_feeding = $breast_feeding;
-                $weight_for_height = 0;
-                if ($factors_values[6] == 'Malnourished') {
-                    $weight_for_height = 5;
-                } 
-                elseif ($factors_values[6] == 'Nourished') {
-                    $weight_for_height = 2;
-                }
-                $new_factor_record->weight_for_height = $weight_for_height;
-                $nutrition_status = 0;
-                if ($factors_values[7] == 'Good') {
-                    $nutrition_status = 1;
-                } 
-                elseif ($factors_values[7] == 'Moderate') {
-                    $nutrition_status = 3;
-                }
-                elseif ($factors_values[7] == 'Severe') {
-                    $nutrition_status =  5;
-                }
-                $new_factor_record->nutrition_status = $nutrition_status;
-                $hiv_status = 0;
-                if ($factors_values[8] == 'Unknown') {
-                    $hiv_status = 1;
-                } 
-                elseif ($factors_values[8] == 'NEGATIVE') {
-                    $hiv_status = 3;
-                }
-                elseif ($factors_values[8] == 'POSITIVE') {
-                    $hiv_status =  5;
-                }
-                $new_factor_record->HIV_status = $hiv_status;
-                $congestion = 0;
-                if ($factors_values[9] == 'N/A') {
-                    $congestion = 0;
-                } 
-                elseif ($factors_values[9] == 'N') {
-                    $congestion = 3;
-                }
-                elseif ($factors_values[9] == 'Y') {
-                    $congestion =  5;
-                }
-                $new_factor_record->congestion = $congestion;
-                $immusation_status = 0;
-                if ($factors_values[10] == 'Y') {
-                    $immusation_status = 1;
-                } 
-                elseif ($factors_values[10] == 'N') {
-                    $immusation_status = 4;
-                }
-                $new_factor_record->immusation_status = $immusation_status;
-                $smokers = 0;
-                if ($factors_values[10] == 'Y') {
-                    $smokers = 5;
-                } 
-                elseif ($factors_values[10] == 'N') {
-                    $smokers = 1;
-                }
-                $new_factor_record->family_cigaratte_smoker = $smokers;
+                $new_factor_record->age_in_month = $factors_values[2];
+                $new_factor_record->body_mass_index = $factors_values[3];
+                $new_factor_record->immusation_status = $factors_values[4];
+                $new_factor_record->symptoms = $factors_values[5];
+                $new_factor_record->outcome = $factors_values[6];
                 $new_factor_record->save();
             }
         }
         //Alert::success('Your template saw successcully uploaded');
-        return redirect('/home');
+        return redirect('/show_factors');
+    }
+
+    public function prediction_algorithm()
+    {
+        //1.get number of records per year.
+        //2.get the average increasing or decreasing rate sequence
+        //3.use the sequence to predict the prevelance
     }
 }

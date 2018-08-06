@@ -17,7 +17,7 @@
         var predictions_array = {!! json_encode($predictions_array) !!} ;
 
         var chart = {
-            type: 'column'
+            type: 'line'
         };
         var title = {
             text: 'Pneumonia Prevalance Predictions per season'   

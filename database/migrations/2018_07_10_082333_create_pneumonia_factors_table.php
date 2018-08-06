@@ -16,17 +16,12 @@ class CreatePneumoniaFactorsTable extends Migration
         Schema::create('pneumonia_factors', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('district_id')->nullable();
-            $table->integer('age_group')->nullable();
             $table->string('month_of_admission')->nullable();
-            $table->integer('gender')->comment('3 = male, 1 = female')->nullable();
-            $table->integer('level_of_education')->nullable();
-            $table->integer('breast_feeding')->nullable();
-            $table->integer('weight_for_height')->nullable();
-            $table->integer('nutrition_status')->nullable();
-            $table->integer('HIV_status')->nullable();
-            $table->integer('congestion')->nullable();
+            $table->integer('age_in_month')->nullable();
+            $table->float('body_mass_index')->nullable();
             $table->integer('immusation_status')->nullable();
-            $table->integer('family_cigaratte_smoker')->nullable();
+            $table->integer('symptoms')->nullable();
+            $table->integer('outcome')->nullable();
             $table->timestamps();
         });
     }

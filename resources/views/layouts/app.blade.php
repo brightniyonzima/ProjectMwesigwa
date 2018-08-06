@@ -30,7 +30,7 @@
                 @guest
                 @else
                     <a href="/home" style="margin-left: 20px;font-weight: 600;">Home</a>
-                    <a href="/demographics" style="margin-left: 20px; font-weight: 600;">New Record</a>
+                    <a href="/show_factors" style="margin-left: 20px; font-weight: 600;">Show Records</a>
                     <a href="/predictions" style="margin-left: 20px; font-weight: 600;">Predict</a>
                     <a href="/sample_graph" target="_blank" style="margin-left: 20px; font-weight: 600;">View Prediction Charts</a>
                 @endguest
