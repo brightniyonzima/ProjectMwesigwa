@@ -20,7 +20,7 @@
             type: 'line'
         };
         var title = {
-            text: 'Pneumonia Prevalance Predictions per season'   
+            text: 'Pneumonia Prevalance Predictions'   
         };
         var subtitle = {
             text: ''  
@@ -29,13 +29,13 @@
             categories: seasons_array,
             crosshair: true,
             title: {
-                text: 'Seasons'         
+                text: 'Year'         
             }  
         };
         var yAxis = {
             min: 0,
             title: {
-                text: 'Percentage'         
+                text: 'Percentage (%)'         
             }      
         };
         var tooltip = {

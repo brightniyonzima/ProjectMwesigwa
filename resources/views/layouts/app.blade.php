@@ -33,6 +33,7 @@
                     <a href="/show_factors" style="margin-left: 20px; font-weight: 600;">Show Records</a>
                     <a href="/predictions" style="margin-left: 20px; font-weight: 600;">Predict</a>
                     <a href="/sample_graph" target="_blank" style="margin-left: 20px; font-weight: 600;">View Prediction Charts</a>
+                    <a href="/multi_factor_graph" target="_blank" style="margin-left: 20px; font-weight: 600;">Factors Charts</a>
                 @endguest
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

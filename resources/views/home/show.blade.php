@@ -8,7 +8,6 @@
 	    <table  class="display" id="patie-data-table">
 	        <tr style="background-color: #eee">
 	            <th style="width: 10%">Age group</th>
-				<th style="width: 10%">Address</th>
 				<th style="width: 5%">Sex</th>
 				<th style="width: 10%">Comorbidity</th>
 				<th style="width: 10%">Exclusive breast feeding</th>
@@ -23,12 +22,11 @@
 				@foreach($pneumonia_factors as $factor)
 				<tr>
 				    <td>{{ $factor->age_group }}</td>
-					<td>{{ $factor->district_id }}</td>
-					<td>{{ $factor->gender }}</td>
+					<td>{{ $factor->gender == 2 ? 'Female' : 'Male' }}</td>
 					<td>{{ $factor->comorbidity }}</td>
 					<td>{{ $factor->exclusive_breast_feeding }}</td>
 					<td>{{ $factor->body_mass_index }}</td>
-					<td>{{ $factor->immusation_status }}</td>
+					<td>{{ $factor->immusation_status == 1 ? 'Immunized' : 'Not immunized' }}</td>
 					<td>{{ $factor->birthweight }}</td>
 					<td>{{ $factor->prematurity }}</td>
 					<td align="right">

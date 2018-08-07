@@ -32,5 +32,6 @@ Route::resource('predictions','PredictionController');
 
 /*sample graph*/
 Route::get('sample_graph','PredictionController@general_graph');
+Route::get('multi_factor_graph','PredictionController@multi_factor_graph');
 
 

@@ -19,7 +19,7 @@ class PredictionController extends Controller
      */
     public function index()
     {
-        $demographics = ['1'=>'General Prevelance Prediction','2'=>'Prediction based on age','3'=>'Prediction based on years'];
+        $demographics = ['1'=>'General Prevelance Prediction','2'=>'Short term prediction (2020)','3'=>'Long term predition (2025)'];
         return view('predictions.index',compact('demographics'));
     }
 
@@ -102,8 +102,17 @@ class PredictionController extends Controller
         }*/
         $seasons_array = [];
         $predictions_array = [];
-        $seasons_array = ['2014-2017','2018-2020','2021-2024','2025-2028'];
-        $predictions_array = [30,50,70,60];
+        $seasons_array = ['2014','2015','2016','2020','2025'];
+        $predictions_array = [30.8,33.8,35.4,44.9,56.4];
         return view('predictions.general_charts',compact('seasons_array','predictions_array'));
+    }
+
+    public function multi_factor_graph()
+    {
+        $seasons_array = [];
+        $predictions_array = [];
+        $seasons_array = ['2014','2015','2016'];
+        $predictions_array = [];
+        return view('predictions.multi_factor_graph',compact('seasons_array','predictions_array'));
     }
 }
