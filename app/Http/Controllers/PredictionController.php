@@ -102,7 +102,7 @@ class PredictionController extends Controller
         }*/
         $seasons_array = [];
         $predictions_array = [];
-        $seasons_array = ['jan-march','april-june','july-sept','oct-dec'];
+        $seasons_array = ['2014-2017','2018-2020','2021-2024','2025-2028'];
         $predictions_array = [30,50,70,60];
         return view('predictions.general_charts',compact('seasons_array','predictions_array'));
     }
