@@ -7,26 +7,30 @@
 
 	    <table  class="display" id="patie-data-table">
 	        <tr style="background-color: #eee">
-				<th>Address</th>
-				<th>month of admission</th>
-				<th>age in months</th>
-				<th>body mass index</th>
-				<th>immunisation status</th>
-				<th>symptoms</th>
-				<th>outcome</th>
-				<th></th>
+	            <th style="width: 10%">Age group</th>
+				<th style="width: 10%">Address</th>
+				<th style="width: 5%">Sex</th>
+				<th style="width: 10%">Comorbidity</th>
+				<th style="width: 10%">Exclusive breast feeding</th>
+				<th style="width: 10%">Body mass index</th>
+				<th style="width: 10%">Immunisation status</th>
+				<th style="width: 10%">Birthweight</th>
+				<th style="width: 10%">Prematurity</th>
+				<th style="width: 15%"></th>
 			</tr>
 
 			@if(!is_null($pneumonia_factors))
 				@foreach($pneumonia_factors as $factor)
 				<tr>
-					<td><a href="/hospitals/{{ $factor->id }}">{{ $factor->district_id }}</a></td>
-					<td>{{ $factor->month_of_admission }}</td>
-					<td>{{ $factor->age_in_month }}</td>
+				    <td>{{ $factor->age_group }}</td>
+					<td>{{ $factor->district_id }}</td>
+					<td>{{ $factor->gender }}</td>
+					<td>{{ $factor->comorbidity }}</td>
+					<td>{{ $factor->exclusive_breast_feeding }}</td>
 					<td>{{ $factor->body_mass_index }}</td>
 					<td>{{ $factor->immusation_status }}</td>
-					<td>{{ $factor->symptoms }}</td>
-					<td>{{ $factor->outcome }}</td>
+					<td>{{ $factor->birthweight }}</td>
+					<td>{{ $factor->prematurity }}</td>
 					<td align="right">
 					    <a action="edit" class="btn btn-primary" href="#"><span class="glyphicon glyphicon-pencil pull-left">&nbsp;</span>Edit</a>
 					    <a action="delete" class="btn btn-danger" href="#"><span class="pull-left">&nbsp;</span>Delete</a>

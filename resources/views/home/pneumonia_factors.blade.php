@@ -10,24 +10,23 @@
                 <div class="card-body">
                     <form method="POST" action="{{ url('store-factors') }}" aria-label="{{ __('Register') }}">
                         @csrf
-                        <input type="hidden" name="demo_id" value="{{ $demographic_id }}">
 
                         <div class="form-group row">
                             <label for="age_group" class="col-md-4 col-form-label text-md-right">{{ __('Gender') }}</label>
 
                             <div class="col-md-6">
                                 <div style="padding-top: 5px;">
-                                <input type="radio" name="gender" value="3" required>Male &nbsp;
-                                <input type="radio" name="gender" value="1" required>Female
+                                <input type="radio" name="HIV_staus" value="3" required>Male &nbsp;
+                                <input type="radio" name="HIV_staus" value="1" required>Female
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="weight_for_height" class="col-md-4 col-form-label text-md-right">{{ __('Weight For Height') }}</label>
+                            <label for="age_group" class="col-md-4 col-form-label text-md-right">{{ __('Weight For Height') }}</label>
 
                             <div class="col-md-6">
-                                <select class="form-control" name="weight_for_height" required>
+                                <select class="form-control" name="time_waiting" required>
                                     <option value="">--select--</option>
                                     <option value="5"> Very Malnourished</option>
                                     <option value="3"> Malnourished</option>
@@ -38,7 +37,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="HIV_status" class="col-md-4 col-form-label text-md-right">{{ __('HIV Status') }}</label>
+                            <label for="age_group" class="col-md-4 col-form-label text-md-right">{{ __('HIV Status') }}</label>
 
                             <div class="col-md-6">
                                 <div style="padding-top: 5px;">
@@ -50,10 +49,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="nutrition" class="col-md-4 col-form-label text-md-right">{{ __('Nutrition Status') }}</label>
+                            <label for="age_group" class="col-md-4 col-form-label text-md-right">{{ __('Nutrition Status') }}</label>
 
                             <div class="col-md-6">
-                                <select class="form-control" name="nutrition" required>
+                                <select class="form-control" name="time_waiting" required>
                                     <option value="">--select--</option>
                                     <option value="1">Very Good</option>
                                     <option value="2">Good</option>
@@ -65,12 +64,12 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="breast_feeding" class="col-md-4 col-form-label text-md-right">{{ __('Breast Feeding') }}</label>
+                            <label for="age_group" class="col-md-4 col-form-label text-md-right">{{ __('Breast Feeding') }}</label>
 
                             <div class="col-md-6">
                                 <div style="padding-top: 5px;">
-                                <input type="radio" name="breast_feeding" value="1" required>Yes &nbsp;
-                                <input type="radio" name="breast_feeding" value="5" required>No
+                                <input type="radio" name="breast_feeding" value="5" required>Yes &nbsp;
+                                <input type="radio" name="breast_feeding" value="0" required>No
                                 </div>
                             </div>
                         </div>
@@ -95,8 +94,8 @@
 
                             <div class="col-md-6">
                                 <div style="padding-top: 5px;">
-                                <input type="radio" name="Immunisation" value="1" required>Yes &nbsp;
-                                <input type="radio" name="Immunisation" value="5" required>No
+                                <input type="radio" name="Immunisation" value="5" required>Yes &nbsp;
+                                <input type="radio" name="Immunisation" value="0" required>No
                                 </div>
                             </div>
                         </div>
@@ -107,7 +106,7 @@
                             <div class="col-md-6">
                                 <div style="padding-top: 5px;">
                                 <input type="radio" name="smokers" value="5" required>Yes &nbsp;
-                                <input type="radio" name="smokers" value="1" required>No
+                                <input type="radio" name="smokers" value="0" required>No
                                 </div>
                             </div>
                         </div>

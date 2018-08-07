@@ -83,6 +83,25 @@
         </main>
     </div>
 </body>
+
+<link rel="stylesheet" type="text/css" href="/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/datatables.min.css">
+    <script src="/js/js/jquery3.2.1.min.js"></script>
+    <script src="/js/js/select2.min.js"></script>
+    <script type="text/javascript" src="/js/js/datatables.min.js"></script>
+    <script src="/js/js/highcharts.js"></script>
+    <script src="/js/js/exporting.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('#patie-data-table').DataTable({
+                "searching": true
+            });
+            $('#patie-data-table2').DataTable({
+                "searching": true
+            });
+        });
+    </script>
+
 <style type="text/css">
     body{
         font-weight: 600px;
