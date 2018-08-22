@@ -7,28 +7,32 @@
 
 	    <table  class="display" id="patie-data-table">
 	        <tr style="background-color: #eee">
-	            <th style="width: 10%">Age group</th>
+	            <th style="width: 20%">Year of admission</th>
+	            <th style="width: 20%">Age group</th>
 				<th style="width: 5%">Sex</th>
 				<th style="width: 10%">Comorbidity</th>
-				<th style="width: 10%">Exclusive breast feeding</th>
-				<th style="width: 10%">Body mass index</th>
-				<th style="width: 10%">Immunisation status</th>
+				<th style="width: 20%">Exclusive breast feeding</th>
 				<th style="width: 10%">Birthweight</th>
-				<th style="width: 10%">Prematurity</th>
 				<th style="width: 15%"></th>
 			</tr>
 
 			@if(!is_null($pneumonia_factors))
 				@foreach($pneumonia_factors as $factor)
 				<tr>
-				    <td>{{ $factor->age_group }}</td>
+				    <td>{{ Carbon\Carbon::parse($factor->year_of_admission)->format('Y')  }}</td>
+				    <!-- '1'=>'0-20 months','2'=>'21-40 months','3'=>'41-60 months' -->
+				    @if($factor->age_group == 1)
+				        <td>0-20 months</td>
+				    @elseif($factor->age_group == 2)
+				        <td>21-40 months</td>
+				    @else
+				        <td>41-60 months</td>
+				    @endif
+				
 					<td>{{ $factor->gender == 2 ? 'Female' : 'Male' }}</td>
 					<td>{{ $factor->comorbidity }}</td>
 					<td>{{ $factor->exclusive_breast_feeding }}</td>
-					<td>{{ $factor->body_mass_index }}</td>
-					<td>{{ $factor->immusation_status == 1 ? 'Immunized' : 'Not immunized' }}</td>
 					<td>{{ $factor->birthweight }}</td>
-					<td>{{ $factor->prematurity }}</td>
 					<td align="right">
 					    <a action="edit" class="btn btn-primary" href="#"><span class="glyphicon glyphicon-pencil pull-left">&nbsp;</span>Edit</a>
 					    <a action="delete" class="btn btn-danger" href="#"><span class="pull-left">&nbsp;</span>Delete</a>

@@ -34,4 +34,7 @@ Route::resource('predictions','PredictionController');
 Route::get('sample_graph','PredictionController@general_graph');
 Route::get('multi_factor_graph','PredictionController@multi_factor_graph');
 
+/* questionnaire */
+Route::resource('data_collection','DataCollectionController');
+
 

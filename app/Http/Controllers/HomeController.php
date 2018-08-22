@@ -77,7 +77,7 @@ class HomeController extends Controller
             $RealPath = $file->getRealPath();
             /*$pneumonia_factors = Excel::load($RealPath, function($reader) {
             })->get(); this works too but i prefer the selectSheets()*/
-            $pneumonia_factors_sheet = Excel::selectSheets('Sheet1')->load($RealPath,function($reader) {
+            $pneumonia_factors_sheet = Excel::selectSheets('Please yous me')->load($RealPath,function($reader) {
             })->get();
 
             foreach ($pneumonia_factors_sheet as $factor) {
@@ -85,15 +85,12 @@ class HomeController extends Controller
                 $factors_values = array_values($factors_array);
                 
                 $new_factor_record = new PneumoniaFactor;
-                $new_factor_record->age_group = $factors_values[0];
-                $new_factor_record->district_id = $factors_values[1];
+                $new_factor_record->year_of_admission = \Carbon\Carbon::createFromFormat('Y', $factors_values[0])->toDateString(); 
+                $new_factor_record->age_group = $factors_values[1];
                 $new_factor_record->gender = $factors_values[2];
                 $new_factor_record->comorbidity = $factors_values[3];
                 $new_factor_record->exclusive_breast_feeding = $factors_values[4];
-                $new_factor_record->body_mass_index = $factors_values[5];
-                $new_factor_record->immusation_status = $factors_values[6];
-                $new_factor_record->birthweight = $factors_values[7];
-                $new_factor_record->prematurity = $factors_values[8];
+                $new_factor_record->birthweight = $factors_values[5];
                 $new_factor_record->save();
             }
         }
