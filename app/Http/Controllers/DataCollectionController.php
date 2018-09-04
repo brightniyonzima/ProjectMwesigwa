@@ -39,14 +39,17 @@ class DataCollectionController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request->all());
         $new_pneumonia_infection = new PneumoniaFactor;
-        $new_pneumonia_infection->year_of_admission = $request;
-        $new_pneumonia_infection->age_group = $request;
-        $new_pneumonia_infection->gender = $request;
-        $new_pneumonia_infection->comorbidity = $request;
-        $new_pneumonia_infection->exclusive_breast_feeding = $request;
-        $new_pneumonia_infection->birthweight = $request;
+        $admission_day = $request->dobday;
+        $admission_month = $request->dobmonth;
+        $admission_year = \Carbon\Carbon::createFromFormat('Y', $request->dobyear)->toDateString(); 
+        $new_pneumonia_infection->year_of_admission = $admission_year;
+        $new_pneumonia_infection->age_group = $request->age;
+        $new_pneumonia_infection->gender = $request->gender;
+        $comorbidity_array = $request->comorbidity;
+        $new_pneumonia_infection->comorbidity = $comorbidity_array[0];
+        $new_pneumonia_infection->exclusive_breast_feeding = $request->exclusive_breast_feeding;
+        $new_pneumonia_infection->birthweight = $request->birth_weight;
         $new_pneumonia_infection->save();
         return redirect('show_factors');
     }

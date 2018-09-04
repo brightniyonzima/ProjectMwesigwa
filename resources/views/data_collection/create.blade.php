@@ -16,7 +16,7 @@
                     <div class="row collection-form">
                         
 
-                            <div class="col-md-6">
+                            <div class="col-md-8">
                                 {{ Form::open(['route' => 'data_collection.store','data-toggle'=>'validator']) }}
                                 <div class="form-group{{ $errors->has('date_of_admission') ? ' has-error' : '' }}">
                                     <label for="date_of_admission" class="col-md-4 control-label">Date of Admission</label>
@@ -83,8 +83,6 @@
                                         <input type="checkbox" name="immunization_status[]" value="6">MMR (Measles, Mumps, Rubella) &nbsp;
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
                                 <div class="form-group{{ $errors->has('address') ? ' has-error' : '' }}">
                                     <label for="address" class="col-md-4 control-label">Address</label>
                                     <div class="col-md-12">
@@ -117,9 +115,9 @@
                                     <label for="birth_weight" class="col-md-12 control-label">Birth Weight</label>
                                     <div class="col-md-12">
                                         <input type="radio" name="birth_weight" value="low">Low &nbsp;
-                                        <input type="radio" name="birth_weight" value="moderate">Moderate &nbsp;
-                                        <input type="radio" name="birth_weight" value="normal">Normal &nbsp;
-                                        <input type="radio" name="birth_weight" value="obess">Obess  
+                                        <input type="radio" name="birth_weight" value="1">Moderate &nbsp;
+                                        <input type="radio" name="birth_weight" value="2">Normal &nbsp;
+                                        <input type="radio" name="birth_weight" value="3">Obess  
                                     </div>
                                 </div>
 
