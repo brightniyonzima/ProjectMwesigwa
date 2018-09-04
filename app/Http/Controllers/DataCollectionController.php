@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\PneumoniaFactor;
 
 class DataCollectionController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -34,7 +39,16 @@ class DataCollectionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd($request->all());
+        $new_pneumonia_infection = new PneumoniaFactor;
+        $new_pneumonia_infection->year_of_admission = $request;
+        $new_pneumonia_infection->age_group = $request;
+        $new_pneumonia_infection->gender = $request;
+        $new_pneumonia_infection->comorbidity = $request;
+        $new_pneumonia_infection->exclusive_breast_feeding = $request;
+        $new_pneumonia_infection->birthweight = $request;
+        $new_pneumonia_infection->save();
+        return redirect('show_factors');
     }
 
     /**

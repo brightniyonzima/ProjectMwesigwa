@@ -17,8 +17,7 @@
                         
 
                             <div class="col-md-6">
-                                <form method="POST" action="{{ url('data_collection') }}" style="width: 100%">
-                                @csrf
+                                {{ Form::open(['route' => 'data_collection.store','data-toggle'=>'validator']) }}
                                 <div class="form-group{{ $errors->has('date_of_admission') ? ' has-error' : '' }}">
                                     <label for="date_of_admission" class="col-md-4 control-label">Date of Admission</label>
                                     <div class="col-md-12">
@@ -44,44 +43,44 @@
                                 <div class="form-group{{ $errors->has('date_of_admission') ? ' has-error' : '' }}">
                                     <label for="date_of_admission" class="col-md-4 control-label">Caretakers</label>
                                     <div class="col-md-12">
-                                        <input type="radio" name="caretakers" value="1" required>Parent &nbsp;
-                                        <input type="radio" name="caretakers" value="2" required>Other
+                                        <input type="radio" name="caretakers" value="1">Parent &nbsp;
+                                        <input type="radio" name="caretakers" value="2">Other
                                     </div>
                                 </div>
 
                                 <div class="form-group{{ $errors->has('gender') ? ' has-error' : '' }}">
                                     <label for="gender" class="col-md-4 control-label">Gender</label>
                                     <div class="col-md-12">
-                                        <input type="radio" name="gender" value="1" required>Male &nbsp;
-                                        <input type="radio" name="gender" value="2" required>Female
+                                        <input type="radio" name="gender" value="1">Male &nbsp;
+                                        <input type="radio" name="gender" value="2">Female
                                     </div>
                                 </div>
 
                                 <div class="form-group{{ $errors->has('age') ? ' has-error' : '' }}">
                                     <label for="age" class="col-md-4 control-label">Age</label>
                                     <div class="col-md-12">
-                                        <input id="age" type="text" class="form-control" name="age" value="{{ old('age') }}">
+                                        <input id="age" type="number" class="form-control" name="age" value="{{ old('age') }}">
                                     </div>
                                 </div>
 
                                 <div class="form-group{{ $errors->has('exclusive_breast_feeding') ? ' has-error' : '' }}">
                                     <label for="exclusive_breast_feeding" class="col-md-12 control-label">Exclusive breast feeding for 6 months</label>
                                     <div class="col-md-12">
-                                        <input type="radio" name="exclusive_breast_feeding" value="1" required>1-2 Months &nbsp;
-                                        <input type="radio" name="exclusive_breast_feeding" value="2" required>3-4 Months &nbsp;
-                                        <input type="radio" name="exclusive_breast_feeding" value="3" required>5-6 Months 
+                                        <input type="radio" name="exclusive_breast_feeding" value="1">1-2 Months &nbsp;
+                                        <input type="radio" name="exclusive_breast_feeding" value="2">3-4 Months &nbsp;
+                                        <input type="radio" name="exclusive_breast_feeding" value="3">5-6 Months 
                                     </div>
                                 </div>
 
                                 <div class="form-group{{ $errors->has('immunization_status') ? ' has-error' : '' }}">
                                     <label for="immunization_status" class="col-md-12 control-label">Immunization status</label>
                                     <div class="col-md-12">
-                                        <input type="checkbox" name="immunization_status[]" value="1" required>Tetanus &nbsp;
-                                        <input type="checkbox" name="immunization_status[]" value="2" required>Hepatitis &nbsp;
-                                        <input type="checkbox" name="immunization_status[]" value="3" required>Influenza &nbsp;
-                                        <input type="checkbox" name="immunization_status[]" value="4" required>Pneumonia &nbsp;
-                                        <input type="checkbox" name="immunization_status[]" value="5" required>Chickenpox &nbsp; <br>
-                                        <input type="checkbox" name="immunization_status[]" value="6" required>MMR (Measles, Mumps, Rubella) &nbsp;
+                                        <input type="checkbox" name="immunization_status[]" value="1">Tetanus &nbsp;
+                                        <input type="checkbox" name="immunization_status[]" value="2">Hepatitis &nbsp;
+                                        <input type="checkbox" name="immunization_status[]" value="3">Influenza &nbsp;
+                                        <input type="checkbox" name="immunization_status[]" value="4">Pneumonia &nbsp;
+                                        <input type="checkbox" name="immunization_status[]" value="5">Chickenpox &nbsp; <br>
+                                        <input type="checkbox" name="immunization_status[]" value="6">MMR (Measles, Mumps, Rubella) &nbsp;
                                     </div>
                                 </div>
                             </div>
@@ -96,39 +95,39 @@
                                 <div class="form-group{{ $errors->has('comorbidity') ? ' has-error' : '' }}">
                                     <label for="comorbidity" class="col-md-12 control-label">Comorbidity</label>
                                     <div class="col-md-12">
-                                        <input type="checkbox" name="comorbidity[]" value="1" required>HIV &nbsp;
-                                        <input type="checkbox" name="comorbidity[]" value="2" required>TB &nbsp;
-                                        <input type="checkbox" name="comorbidity[]" value="3" required>Malaria &nbsp;
-                                        <input type="checkbox" name="comorbidity[]" value="4" required>Measles &nbsp;
-                                        <input type="checkbox" name="comorbidity[]" value="5" required>Diarrhea &nbsp; 
+                                        <input type="checkbox" name="comorbidity[]" value="1">HIV &nbsp;
+                                        <input type="checkbox" name="comorbidity[]" value="2">TB &nbsp;
+                                        <input type="checkbox" name="comorbidity[]" value="3">Malaria &nbsp;
+                                        <input type="checkbox" name="comorbidity[]" value="4">Measles &nbsp;
+                                        <input type="checkbox" name="comorbidity[]" value="5">Diarrhea &nbsp; 
                                     </div>
                                 </div>
 
                                 <div class="form-group{{ $errors->has('body_mass_index') ? ' has-error' : '' }}">
                                     <label for="body_mass_index" class="col-md-12 control-label">Body Mass Index</label>
                                     <div class="col-md-12">
-                                        <input type="radio" name="body_mass_index" value="1" required>1-1.5 &nbsp;
-                                        <input type="radio" name="body_mass_index" value="2" required>2-2.5 &nbsp;
-                                        <input type="radio" name="body_mass_index" value="3" required>3-3.5 &nbsp;
-                                        <input type="radio" name="body_mass_index" value="4" required>< 3.5  
+                                        <input type="radio" name="body_mass_index" value="1">1-1.5 &nbsp;
+                                        <input type="radio" name="body_mass_index" value="2">2-2.5 &nbsp;
+                                        <input type="radio" name="body_mass_index" value="3">3-3.5 &nbsp;
+                                        <input type="radio" name="body_mass_index" value="4">< 3.5  
                                     </div>
                                 </div>
 
                                 <div class="form-group{{ $errors->has('birth_weight') ? ' has-error' : '' }}">
                                     <label for="birth_weight" class="col-md-12 control-label">Birth Weight</label>
                                     <div class="col-md-12">
-                                        <input type="radio" name="birth_weight" value="low" required>Low &nbsp;
-                                        <input type="radio" name="birth_weight" value="moderate" required>Moderate &nbsp;
-                                        <input type="radio" name="birth_weight" value="normal" required>Normal &nbsp;
-                                        <input type="radio" name="birth_weight" value="obess" required>Obess  
+                                        <input type="radio" name="birth_weight" value="low">Low &nbsp;
+                                        <input type="radio" name="birth_weight" value="moderate">Moderate &nbsp;
+                                        <input type="radio" name="birth_weight" value="normal">Normal &nbsp;
+                                        <input type="radio" name="birth_weight" value="obess">Obess  
                                     </div>
                                 </div>
 
                                 <div class="form-group{{ $errors->has('prematurity') ? ' has-error' : '' }}">
                                     <label for="prematurity" class="col-md-4 control-label">Pre-maturity</label>
                                     <div class="col-md-12">
-                                        <input type="radio" name="prematurity" id="child_premature" value="yes" required>Yes &nbsp;
-                                        <input type="radio" name="prematurity" id="child_not_premature" value="no" required>No
+                                        <input type="radio" name="prematurity" id="child_premature" value="yes">Yes &nbsp;
+                                        <input type="radio" name="prematurity" id="child_not_premature" value="no">No
 
                                         <div id="age_in_months" style="display: none;">
                                             <label class="control-label">How old in months</label><br>
@@ -139,13 +138,11 @@
 
                                 <div class="form-group row mb-0">
                                     <div class="col-md-6 offset-md-4">
-                                        <button type="submit" class="btn btn-primary" id="save_button">
-                                            {{ __('Save') }}
-                                        </button>
+                                        <input type="submit" class="btn btn-primary" value="Save">
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        {{ Form::close() }}
                     </div>
                 </div>
             </div>

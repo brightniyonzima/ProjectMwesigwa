@@ -31,7 +31,7 @@
                 @else
                     <a href="/home" style="margin-left: 20px;font-weight: 600;">Home</a>
                     <a href="/data_collection/create" style="margin-left: 20px; font-weight: 600;">Data collection</a>
-                    <a href="/show_factors" style="margin-left: 20px; font-weight: 600;">Show Records</a>
+                    <!-- <a href="/show_factors" style="margin-left: 20px; font-weight: 600;">Show Records</a> -->
                     <a href="/predictions" style="margin-left: 20px; font-weight: 600;">Predict</a>
                     <a href="/sample_graph" target="_blank" style="margin-left: 20px; font-weight: 600;">View Prediction Charts</a>
                     <a href="/multi_factor_graph" target="_blank" style="margin-left: 20px; font-weight: 600;">Factors Charts</a>
